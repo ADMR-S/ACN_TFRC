@@ -1,0 +1,30 @@
+17:00:13.246564 IP 10.0.0.4.44082 > 10.0.0.3.5001: Flags [P.], seq 2596439039:2596465103, ack 3527747299, win 83, options [nop,nop,TS val 3413461768 ecr 3288739075], length 26064
+17:00:13.246576 IP 10.0.0.3.5001 > 10.0.0.4.44082: Flags [.], ack 26064, win 11869, options [nop,nop,TS val 3288739167 ecr 3413461768], length 0
+17:00:13.246613 IP 10.0.0.4.44082 > 10.0.0.3.5001: Flags [P.], seq 26064:52128, ack 1, win 83, options [nop,nop,TS val 3413461768 ecr 3288739075], length 26064
+17:00:13.246617 IP 10.0.0.3.5001 > 10.0.0.4.44082: Flags [.], ack 52128, win 13498, options [nop,nop,TS val 3288739167 ecr 3413461768], length 0
+17:00:13.246639 IP 10.0.0.4.44082 > 10.0.0.3.5001: Flags [P.], seq 52128:104256, ack 1, win 83, options [nop,nop,TS val 3413461768 ecr 3288739167], length 52128
+17:00:13.246645 IP 10.0.0.3.5001 > 10.0.0.4.44082: Flags [.], ack 104256, win 16756, options [nop,nop,TS val 3288739167 ecr 3413461768], length 0
+17:00:13.246651 IP 10.0.0.4.44082 > 10.0.0.3.5001: Flags [P.], seq 104256:117288, ack 1, win 83, options [nop,nop,TS val 3413461768 ecr 3288739167], length 13032
+17:00:13.246653 IP 10.0.0.3.5001 > 10.0.0.4.44082: Flags [.], ack 117288, win 17571, options [nop,nop,TS val 3288739167 ecr 3413461768], length 0
+17:00:13.246677 IP 10.0.0.4.44082 > 10.0.0.3.5001: Flags [P.], seq 117288:131072, ack 1, win 83, options [nop,nop,TS val 3413461768 ecr 3288739167], length 13784
+17:00:13.246680 IP 10.0.0.3.5001 > 10.0.0.4.44082: Flags [.], ack 131072, win 18432, options [nop,nop,TS val 3288739167 ecr 3413461768], length 0
+17:00:13.346569 IP 10.0.0.4.44082 > 10.0.0.3.5001: Flags [P.], seq 131072:196232, ack 1, win 83, options [nop,nop,TS val 3413461868 ecr 3288739167], length 65160
+17:00:13.346585 IP 10.0.0.3.5001 > 10.0.0.4.44082: Flags [.], ack 196232, win 22505, options [nop,nop,TS val 3288739267 ecr 3413461868], length 0
+17:00:13.346638 IP 10.0.0.4.44082 > 10.0.0.3.5001: Flags [P.], seq 196232:261392, ack 1, win 83, options [nop,nop,TS val 3413461868 ecr 3288739167], length 65160
+17:00:13.346647 IP 10.0.0.3.5001 > 10.0.0.4.44082: Flags [.], ack 261392, win 26577, options [nop,nop,TS val 3288739267 ecr 3413461868], length 0
+17:00:13.347494 IP 10.0.0.4.44082 > 10.0.0.3.5001: Flags [P.], seq 261392:262144, ack 1, win 83, options [nop,nop,TS val 3413461869 ecr 3288739167], length 752
+17:00:13.347498 IP 10.0.0.3.5001 > 10.0.0.4.44082: Flags [.], ack 262144, win 26668, options [nop,nop,TS val 3288739268 ecr 3413461869], length 0
+17:00:13.446567 IP 10.0.0.4.44082 > 10.0.0.3.5001: Flags [P.], seq 262144:327304, ack 1, win 83, options [nop,nop,TS val 3413461968 ecr 3288739268], length 65160
+17:00:13.446581 IP 10.0.0.3.5001 > 10.0.0.4.44082: Flags [.], ack 327304, win 30740, options [nop,nop,TS val 3288739367 ecr 3413461968], length 0
+17:00:13.446631 IP 10.0.0.4.44082 > 10.0.0.3.5001: Flags [P.], seq 327304:392464, ack 1, win 83, options [nop,nop,TS val 3413461968 ecr 3288739268], length 65160
+17:00:13.446638 IP 10.0.0.3.5001 > 10.0.0.4.44082: Flags [.], ack 392464, win 31730, options [nop,nop,TS val 3288739367 ecr 3413461968], length 0
+17:00:13.446654 IP 10.0.0.4.44082 > 10.0.0.3.5001: Flags [P.], seq 392464:393216, ack 1, win 83, options [nop,nop,TS val 3413461968 ecr 3288739268], length 752
+17:00:13.446656 IP 10.0.0.3.5001 > 10.0.0.4.44082: Flags [.], ack 393216, win 31821, options [nop,nop,TS val 3288739367 ecr 3413461968], length 0
+17:00:13.548249 IP 10.0.0.4.44082 > 10.0.0.3.5001: Flags [P.], seq 393216:458376, ack 1, win 83, options [nop,nop,TS val 3413462070 ecr 3288739367], length 65160
+17:00:13.548265 IP 10.0.0.3.5001 > 10.0.0.4.44082: Flags [.], ack 458376, win 31730, options [nop,nop,TS val 3288739469 ecr 3413462070], length 0
+17:00:13.548435 IP 10.0.0.4.44082 > 10.0.0.3.5001: Flags [P.], seq 458376:523536, ack 1, win 83, options [nop,nop,TS val 3413462070 ecr 3288739367], length 65160
+17:00:13.548445 IP 10.0.0.3.5001 > 10.0.0.4.44082: Flags [.], ack 523536, win 31730, options [nop,nop,TS val 3288739469 ecr 3413462070], length 0
+17:00:13.548466 IP 10.0.0.4.44082 > 10.0.0.3.5001: Flags [P.], seq 523536:524288, ack 1, win 83, options [nop,nop,TS val 3413462070 ecr 3288739367], length 752
+17:00:13.548468 IP 10.0.0.3.5001 > 10.0.0.4.44082: Flags [.], ack 524288, win 31911, options [nop,nop,TS val 3288739469 ecr 3413462070], length 0
+17:00:13.646567 IP 10.0.0.4.44082 > 10.0.0.3.5001: Flags [P.], seq 524288:589448, ack 1, win 83, options [nop,nop,TS val 3413462168 ecr 3288739469], length 65160
+17:00:13.646581 IP 10.0.0.3.5001 > 10.0.0.4.44082: Flags [.], ack 589448, win 31730, options [nop,nop,TS val 3288739567 ecr 3413462168], length 0
