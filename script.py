@@ -36,10 +36,10 @@ def runIperf(net, iteration) :
         udp_throughput = calculateUDPthroughput(tcpPacketLength)/1000000
     logUDPThroughput(iteration, udp_throughput)
     #vh2_command = 'iperf -u -c {} -b {}M -l {} -i 1 > udp_client.txt &'.format(vh1.IP(), udp_throughput, tcpPacketLength)
-    vh2_command = 'iperf -u -c {} -b 2.31M -l {} -t 300 -i 1 > udp_client.txt &'.format(vh1.IP(), tcpPacketLength)
+    vh2_command = 'iperf -u -c {} -b 2.31M -l {} -t 10 -i 1 > udp_client.txt &'.format(vh1.IP(), tcpPacketLength)
     print(vh2_command)
-    vh1.cmd('iperf -u -s -t 300 -i 1 > udp_server.txt &')
-    vh3.cmd('iperf -s -w 1M -Z cubic -t 300 -i 1 > tcp_server.txt &')
+    vh1.cmd('iperf -u -s -t 10 -i 1 > udp_server.txt &')
+    vh3.cmd('iperf -s -w 1M -Z cubic -t 10 -i 1 > tcp_server.txt &')
     print('Starting servers')
     time.sleep(2)
     print('tcpdump')
@@ -51,8 +51,8 @@ def runIperf(net, iteration) :
     print('Starting clients')
     #1448 is the packet size of tcp packets on my machine (observed with tcpdump)
     vh2.cmd(vh2_command) #Update UDP throughput considering previous loss values
-    vh4.cmd('iperf -c {} -w 1M -Z cubic -t 300 -i 1 > tcp_client.txt &'.format(vh3.IP()))
-    time.sleep(300)
+    vh4.cmd('iperf -c {} -w 1M -Z cubic -t 10 -i 1 > tcp_client.txt &'.format(vh3.IP()))
+    time.sleep(12)
     print ('------ Ending Iperf tests -----')
 
 def createHost(switch, topo, hostID) :
@@ -125,6 +125,6 @@ def readPreviousLossRate():
 if __name__ == '__main__' :
     #Tell mininet to print useful information
     setLogLevel('info')
-    for iteration in range(1):
+    for iteration in range(1, 21):
         simpleTest(iteration)
 
